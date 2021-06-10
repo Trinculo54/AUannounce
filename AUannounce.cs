@@ -33,8 +33,16 @@ namespace Impostor.Plugins.AUannounce
         public override ValueTask EnableAsync()
         {
             _logger.LogInformation("AUannounce is being enabled.");
-            _logger.LogInformation($"the announcement is " + settings.Announcement);
-            return new ValueTask();
+            if (settings.Enabled == true)
+            {
+                _logger.LogInformation($"the announcement is " + settings.Announcement);
+                return new ValueTask();
+            }
+            else
+            {
+                _logger.LogInformation("AUannounce is off");
+                return new ValueTask();
+            }
         }
 
         public override ValueTask DisableAsync()

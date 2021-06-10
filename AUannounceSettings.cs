@@ -5,6 +5,7 @@ namespace Impostor.Plugins.AUannounce
     class AUannounceSettings
     {
         public string Announcement { get; set; }
+        public bool Enabled { get; set; }
 
 
         public AUannounceSettings ()

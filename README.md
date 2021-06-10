@@ -32,10 +32,10 @@ it should look something like this:
     "BanIpFromGame": true
   },
   "AUannounce": {
-    "Announcement": "EXAMPLE"
+    "Announcement": "EXAMPLE",
+    "Enabled": true
   }
 }
-
 ```
 
   
