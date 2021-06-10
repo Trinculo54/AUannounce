@@ -9,8 +9,7 @@ Adds custom announcements to impostor without API or client moddifications
 Have Impostor installed locally
 
 ```bash 
- Drag "AUannounce.dll" into your plugins folder,
- and start the server
+ Drag "AUannounce.dll" into your plugins folder, and start the server
 ```
     
 ## Custom Announcement
