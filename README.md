@@ -37,6 +37,7 @@ it should look something like this:
   }
 }
 ```
+The Announcements follow text mesh pro formatting with you can find [here](http://digitalnativestudios.com/textmeshpro/docs/rich-text/)
 
   
 ## Authors
