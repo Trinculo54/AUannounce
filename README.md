@@ -1,7 +1,7 @@
 
 # AUannounce
 
-Adds custom announcements to impostor without API or client moddifications
+Adds custom announcements to impostor without API or client modifications
 
 
 ## Installation 
