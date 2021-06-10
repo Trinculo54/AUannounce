@@ -14,17 +14,29 @@ Have Impostor installed locally
     
 ## Custom Announcement
 
-Clone the repo with
+Open your config.json in the root directory
 
-```bash
-git clone https://github.com/Trinculo54/AUannounce
+Add AUannounce dependency in your config.json
+
+it should look something like this:
+```json
+{
+  "Server": {
+    "PublicIp": "127.0.0.1",
+    "PublicPort": 22023,
+    "ListenIp": "0.0.0.0",
+    "ListenPort": 22023
+  },
+  "AntiCheat": {
+    "Enabled": true,
+    "BanIpFromGame": true
+  },
+  "AUannounce": {
+    "Announcement": "EXAMPLE"
+  }
+}
+
 ```
-
-Now open the directory
-
-Edit "AnnouncementsListener.cs" under handlers
-
-
 
   
 ## Authors
