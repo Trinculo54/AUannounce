@@ -12,9 +12,10 @@ Have Impostor installed locally
  Drag "AUannounce.dll" into your plugins folder, and start the server
 ```
 
-If its not installed or configured follow this guide
+If its not installed or configured follow this guide:
 
 [Impostor Docs](https://github.com/Impostor/Impostor/blob/master/docs/Running-the-server.md)
+
     
 ## Custom Announcement
 
