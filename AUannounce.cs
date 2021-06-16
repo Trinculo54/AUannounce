@@ -7,11 +7,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Impostor.Plugins.AUannounce
 {
-    [ImpostorPlugin(
-    package: "gg.impostor.AUannounce",
-    name: "AUannounce",
-    author: "Trinculo54",
-    version: "1.0.0")]
+    [ImpostorPlugin("gg.impostor.AUannounce")]
     public class AUannounce : PluginBase
     {
         private readonly ILogger<AUannounce> _logger;
@@ -32,15 +28,20 @@ namespace Impostor.Plugins.AUannounce
 
         public override ValueTask EnableAsync()
         {
-            _logger.LogInformation("AUannounce is being enabled.");
             if (settings.Enabled == true)
             {
-                _logger.LogInformation($"the announcement is " + settings.Announcement);
+                _logger.LogInformation("AUannounce is being enabled.");
+                string replaceWith = " ";
+                string removedBreaks = AUannounce.settings.Announcement.Replace("\r\n", replaceWith).Replace("\n", replaceWith).Replace("\r", replaceWith);
+                _logger.LogInformation($"The latest announcement is " + removedBreaks);
                 return new ValueTask();
             }
             else
             {
                 _logger.LogInformation("AUannounce is off");
+                string replaceWith = " ";
+                string removedBreaks = AUannounce.settings.Announcement.Replace("\r\n", replaceWith).Replace("\n", replaceWith).Replace("\r", replaceWith);
+                _logger.LogInformation($"The last logged announcement is " + removedBreaks);
                 return new ValueTask();
             }
         }

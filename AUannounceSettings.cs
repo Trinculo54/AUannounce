@@ -10,7 +10,7 @@ namespace Impostor.Plugins.AUannounce
 
         public AUannounceSettings ()
         {
-            Announcement = "<align=center><color=#0000FF><size=120%>Thanks for using AUannouce!</size></color></align>\n\n06/10/2021\n\n-Added Announcement Github\n-Added Startup and End Logger\n\n Currenly working on:\n\n-Custom Announcement config\n\nThanks for playing!";
+            Announcement = "<align=center><color=#0000FF><size=120%>Thanks for using AUannouce!</size></color></align>\n\n06/14/2021\n\n-Added Custom Announcement config\n-New README and config.json changes\n\nThanks for playing!";
         }
     }
 }
