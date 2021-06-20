@@ -1,9 +1,0 @@
-/Users/HackerMan/Documents/AUannounce/bin/Debug/netstandard2.1/AUannounce.deps.json
-/Users/HackerMan/Documents/AUannounce/bin/Debug/netstandard2.1/AUannounce.dll
-/Users/HackerMan/Documents/AUannounce/bin/Debug/netstandard2.1/AUannounce.pdb
-/Users/HackerMan/Documents/AUannounce/obj/Debug/netstandard2.1/AUannounce.csproj.AssemblyReference.cache
-/Users/HackerMan/Documents/AUannounce/obj/Debug/netstandard2.1/AUannounce.AssemblyInfoInputs.cache
-/Users/HackerMan/Documents/AUannounce/obj/Debug/netstandard2.1/AUannounce.AssemblyInfo.cs
-/Users/HackerMan/Documents/AUannounce/obj/Debug/netstandard2.1/AUannounce.csproj.CoreCompileInputs.cache
-/Users/HackerMan/Documents/AUannounce/obj/Debug/netstandard2.1/AUannounce.dll
-/Users/HackerMan/Documents/AUannounce/obj/Debug/netstandard2.1/AUannounce.pdb
